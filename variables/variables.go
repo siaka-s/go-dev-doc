@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"go-dev-doc/variables/visibility"
+)
 
 // déclaration global, explicite avec des valeur de type identiques
 var name, surname string = "kouadio", "piere"
@@ -23,7 +26,13 @@ func main() {
 	// déclaration implicite autorisée à l'intérieur d'une fonction
 	location := "abidjan"
 
-	fmt.Println(name, surname, age, genre, location, taille)
+	fmt.Println(name, surname, age, genre, location, taille, naissance)
+
+	//--------------------test de visibilité des variables contenu dans le package visibility-------------------------------
+
+	fmt.Println(visibility.Texte) // affichage de la variable public Texte déclaré dans le package visibility
+
+	//fmt.Println(visibility.texte) ------> // affichage de la variable privée texte déclaré dans le package "package" ne s'affiche pas
 }
 
 // test := "test"
