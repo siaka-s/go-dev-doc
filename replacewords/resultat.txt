@@ -1,0 +1,8 @@
+Python est un language qui est né chez google
+Ici je vous présence un cas d'exercice avec python pour vérifier nos connaissance des conceptes de bases 
+Nous allons le réaliser avec le language go
+Notre programme nous permettra de rechercher un mot dans un fichier texte et de le remplacer par un autres. 
+les fonctionnalitités de notre programme python seront les suivantes :
+afficher le résultat de nos modification dans la console
+calculer le nombre d'occurence du mot pour chaque ligne du fichier 
+lister les lignes ou les mot on été trouvé 
