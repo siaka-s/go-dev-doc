@@ -1,4 +1,4 @@
-module github.com/siaka-s/go-dev-doc
+module go-dev-doc
 
 go 1.19
 
